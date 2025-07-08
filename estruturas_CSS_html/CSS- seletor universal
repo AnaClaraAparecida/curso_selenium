@@ -1,0 +1,11 @@
+/* Seletor universal */
+.comment,
+#rating,
+[data-tip] + * {
+    background-color: rgb(255, 255, 171)
+} 
+
+ul > li,
+div.faq > * {
+    background-color: lightpink;
+}
