@@ -1,0 +1,10 @@
+/* Combinadores CSS */
+p > strong {
+    background-color: palevioletred;
+}
+
+div > p {
+    background-color: lightpink;
+}
+
+   

@@ -1,0 +1,18 @@
+/* Seletor de filho imediato */
+li > p {
+    background-color: lightgreen;
+}
+
+li > span {
+    background-color:paleturquoise
+}
+
+li > .more > span {
+    background-color: palevioletred;
+}
+
+li > div > span,
+li > p,
+ul > ul > li {
+    font-size: 24px;
+}

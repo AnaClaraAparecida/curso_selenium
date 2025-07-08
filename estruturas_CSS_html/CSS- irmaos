@@ -1,0 +1,57 @@
+/* Seletor de elementos irmãos */
+/* Qualquer h1 que possua o atributo title*/
+h1[title]{
+    background-color: palevioletred;
+}
+
+/* Qualquer elemento que possua o atributo*/ 
+[data-category]{
+    background-color: palegoldenrod
+}
+
+/* O atributo deve ser exatamente == ao valor*/
+[data-category="Bolos"]{
+   background-color: lightpink; 
+}
+
+[id="rating"]{
+    background-color: palegoldenrod
+}
+
+[class="categories"]{
+    background-color: plum;
+}
+
+/* ~= Identificar uma palavra que pertence ao atributo*/ 
+[data-recipe~="de"],
+[data-tip~="bolo"]{
+    background-color: lightblue;
+}
+
+/* |= Identificar um  atributo que comece com o valor especificado seguido por um hife*/
+[style|="font"]{
+    background-color: rgb(255, 221, 233)
+}
+
+/* ~= Identificar um atributo que possui o prefixo do valor especificado*/
+[class^="r"],
+[data-question^="Posso"]{
+    background-color: rgb(253, 248, 186)
+}
+
+/* $= Identificar um atributo que possui o sufixo do valor especificado */
+[class$="es"]{
+    background-color: plum;
+}
+
+/* *= Identificar um atributo que contem ao menos uma ocorrencia do valor esprecificado  */
+[data-user*="A" i]{
+    background-color: rgb(253, 248, 186)
+}
+
+[data-location^="RECEITAS" i]{
+    background-color: rgb(203, 228, 203);
+}
+
+
+

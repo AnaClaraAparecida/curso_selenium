@@ -1,0 +1,28 @@
+/* Seletor de ID e Classes */
+.titulo{
+    background-color: aqua;
+}
+
+.subtitulo, .texto-intro{
+    background-color:palegoldenrod
+}
+
+h1.titulo {
+    background-color:lightgreen
+}
+
+ul.lista-beneficios {
+    background-color: lightpink;
+}
+
+p#paragrafo.lista-beneficios {
+    background-color: lightcoral
+}
+
+li.comunidade.item-beneficio{
+    background-color: palevioletred
+}
+
+li#tipos-de-acesso.item-beneficio{
+    background-color: palevioletred
+}
