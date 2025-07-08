@@ -1,0 +1,21 @@
+/* Seletor de elementos irmãos */
+h1{
+    background-color: palegoldenrod;
+}
+
+.time{
+    background-color: palegoldenrod;
+}
+
+h1, .time{
+    background-color: palevioletred;
+}
+
+:is(h1, .time){
+    background-color: lightblue;
+}
+
+li[data-tip] ~ li,
+li[data-recipe*=" de "i]{
+    background-color: plum;
+}

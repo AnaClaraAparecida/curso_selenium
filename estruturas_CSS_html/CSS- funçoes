@@ -1,0 +1,19 @@
+/* Funçoes */
+
+.categories > :not(h2){
+    background-color: lightpink;
+}
+
+/*#comments-list :not(div):not(p),*/
+#comments-list :not(div, p) {
+    background-color:rgb(255, 255, 150);
+}
+
+.tips li:nth-child(2){
+    background-color: plum;
+}
+
+.related-recipes li:first-child,
+.related-recipes li:last-child{
+    background-color: lightblue;
+}
